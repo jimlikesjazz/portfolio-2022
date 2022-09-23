@@ -1,5 +1,4 @@
 import "../Card/Card.css";
-import mockpic from "../../images/mock-card.jpg";
 
 export default function Card(props) {
   return (
