@@ -1,12 +1,36 @@
-.App {
-  text-align: center;
-  background: #FFB703;
-  padding: 20px;
+:root {
+
+  --blue-theme-colour: #023047;
+  --mustard-theme-colour: #FFB703;
+
+
+  /* https://coolors.co/b0a4b7-373dbb-d4bdc4-f34d6e-f2f1f2 */
+  --bright-blue-background: #373DBB;
+  --bright-pink: #F34D6E;
+  --off-white: #F2F1F2;
+  --dusky-pink: #D4BDC4;
+
+
 }
 
-body {
-  height:100vh;
+
+.App {
+  text-align: center;
+  background: var(--bright-blue-background);
+
+
+
 }
+
+#header-body {
+  min-height: 100vh;
+
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,6 +61,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

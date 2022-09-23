@@ -1,0 +1,48 @@
+#body-container-contact {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: fit-content;
+
+
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+#contact-header {
+    font-family: "playfair display";
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+}
+
+#contact-header::after {
+    content: "";
+    display: block;
+    width: 40px;
+    padding-top: 16px;
+    border-bottom: 5px solid;
+    border-color: #F34D6E;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.contact-text {
+    text-align: left;
+
+    font-family: "lato";
+    font-weight: 400;
+    color: var(--off-white);
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    padding-bottom: 20px;
+}

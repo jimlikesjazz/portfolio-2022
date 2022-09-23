@@ -2,7 +2,15 @@
 
   --blue-theme-colour: #023047;
   --mustard-theme-colour: #FFB703;
- 
+
+
+  /* https://coolors.co/b0a4b7-373dbb-d4bdc4-f34d6e-f2f1f2 */
+  --bright-blue-background: #373DBB;
+  --bright-pink: #F34D6E;
+  --off-white: #F2F1F2;
+  --dusky-pink: #D4BDC4;
+
+
 }
 
 
@@ -13,125 +21,165 @@
 #header-inner {
   max-width: 1200px;
   margin: 0 auto;
+
+
+}
+
+#header-outer {
+  background-color: #3137a7;
 }
 
 #menu {
-display: flex;
-align-items: center;
-  justify-content: space-between;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 10px;
 
 }
 
 #logo {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin: .5rem;
-  color: var(--blue-theme-colour);
+  color: var(--bright-pink);
   font-weight: 700;
+  text-decoration: none;
+
+}
+
+#logo:hover {
+  color: aliceblue;
 }
 
 #nav-bar ul {
   margin: 0;
-  padding:0;
+  padding: 0;
   display: flex;
 }
 
 #nav-bar li {
- list-style: none; 
- 
- 
+  list-style: none;
+
+
 }
 
 #nav-bar li a {
   text-decoration: none;
- 
+
   padding: 1rem;
-  display:block;
-  color: var(--blue-theme-colour);
+  display: block;
+  color: var(--off-white);
   font-family: "lato";
   font-weight: 300;
-  font-size: 1.5em;
-  
- }
+  font-size: 1.3em;
 
- #nav-bar li:hover {
+}
+
+
+
+#nav-bar li:hover {
   text-decoration: underline;
- }
+  text-underline-offset: 10px;
 
- .toggle-button {
-  position:absolute;
+}
+
+.toggle-button {
+  position: absolute;
   top: .75rem;
   right: 1rem;
-  display:none;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
   height: 21px;
- }
- .toggle-button .bar {
-height: 3px;
-width: 100%;
-background-color: var(--blue-theme-colour);
-border-radius: 10px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: var(--off-white);
+  border-radius: 10px;
 
 
- }
+}
 
- .playfair-font {
+.playfair-font {
   font-family: "Playfair Display";
-  
-  }
 
-  .lato-font {
-    font-family: "lato"
-  }
- 
+}
+
+.lato-font {
+  font-family: "lato"
+}
+
+.social-logos {
+  height: 20px;
+
+
+}
+
 /* ////////////////////// */
 
 
 
 
 
-  
+
 .flex {
-   /* display: flex; */
+  /* display: flex; */
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
   .toggle-button {
 
     display: flex;
     margin-top: 15px;
-    
+
 
   }
+
   #menu {
 
     flex-direction: column;
     align-items: flex-start;
-    
-   
+
+
   }
+
   #nav-bar {
     display: none;
     width: 100%;
-    background-color: var(--blue-theme-colour);
-    
+    background-color: #3137a7;
+
   }
+
   #nav-bar ul {
     flex-direction: column;
     width: 100%;
   }
+
   #nav-bar li a {
     padding: .5rem 1rem;
-  }
-  #nav-bar.active {
-    display: flex;
-   
 
   }
+
+  #nav-bar.active {
+    display: flex;
+
+
+  }
+
   #nav-bar li a {
-    color: var(--mustard-theme-colour);
-    
-   }
+    color: var(--off-white);
+
+  }
+
+  #nav-bar li {
+    text-align: center;
+  }
+
+  #greeting {
+    width: 100%;
+  }
 }

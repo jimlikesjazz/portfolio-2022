@@ -1,4 +1,16 @@
 #footer {
-    background-color: azure;
+    background-color: #3137a7;
+
     height: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.social-logos-footer {
+    height: 25px;
+
+    padding: 20px;
+
+
 }

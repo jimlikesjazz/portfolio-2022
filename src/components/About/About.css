@@ -1,0 +1,107 @@
+:root {
+
+    --blue-theme-colour: #023047;
+    --mustard-theme-colour: #FFB703;
+
+
+    /* https://coolors.co/b0a4b7-373dbb-d4bdc4-f34d6e-f2f1f2 */
+    --bright-blue-background: #373DBB;
+    --bright-pink: #F34D6E;
+    --off-white: #F2F1F2;
+    --dusky-pink: #D4BDC4;
+
+}
+
+#body-container-about {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    height: 80vh;
+
+
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+#jim-pic {
+    width: 50%;
+}
+
+.about-pic {
+    width: 80%;
+}
+
+
+
+#about-text {
+    /*background-color: #3137a7;*/
+    width: 50%;
+    font-family: "lato";
+    font-size: 1.1em;
+    border-radius: 2px;
+    color: #F2F1F2;
+    padding: 15px;
+
+}
+
+#about-header {
+    font-family: "playfair display";
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+    display: inline-block;
+
+}
+
+#about-header::after {
+    content: "";
+    display: block;
+    width: 40px;
+    padding-top: 16px;
+    border-bottom: 5px solid;
+    border-color: #F34D6E;
+
+
+}
+
+
+#about-text {
+    text-align: left;
+
+    font-family: "lato";
+    font-weight: 300;
+    color: var(--off-white);
+    font-size: 1.3em;
+}
+
+@media (max-width:800px) {
+
+    #body-container-about {
+        flex-direction: column;
+
+        height: fit-content;
+        padding-bottom: 100px;
+
+
+    }
+
+    #about-text {
+        width: 90%;
+
+
+
+
+    }
+
+    #jim-pic {
+        width: 60%;
+    }
+
+    .about-pic {
+        width: 100%;
+
+    }
+}

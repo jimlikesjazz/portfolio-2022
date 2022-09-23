@@ -1,0 +1,59 @@
+.card {
+
+    border-width: 1.4px;
+    width: 500px;
+    margin: 16px;
+    border-style: solid;
+    border-color: #3137a7;
+
+    border-radius: 2px;
+
+    background-color: #3137a7;
+
+
+}
+
+.site-thumb {
+
+    object-position: top;
+    object-fit: cover;
+    width: 100%;
+
+
+    height: 250px;
+
+}
+
+.card:hover {
+    border-color: #F34D6E;
+    cursor: pointer;
+}
+
+.card-text-container {
+    background-color: #3137a7;
+    color: aliceblue;
+    padding: 6px;
+    margin: 0px 6px 6px 6px;
+}
+
+.project-name {
+    color: #F34D6E;
+}
+
+.image-div-card {
+    margin: 6px 6px 0px 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .card {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+}

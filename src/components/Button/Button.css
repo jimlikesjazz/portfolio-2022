@@ -1,0 +1,14 @@
+.basic-button {
+    border-radius: 57px;
+    border-style: none;
+    padding: 15px 32px;
+    font-family: "lato";
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.basic-button:hover {
+    background-color: #F34D6E;
+    color: aliceblue;
+}

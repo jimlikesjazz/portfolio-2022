@@ -1,0 +1,20 @@
+.skill-list-item {
+    background-color: #3137a7;
+    color: #F2F1F2;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#bullet-plus {
+    color: #F34D6E;
+    font-size: larger;
+}
+
+#bold {
+    font-weight: 800;
+}
