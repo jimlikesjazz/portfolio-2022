@@ -1,9 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./components/Header/Header.css";
 import Header from "./components/Header/Header";
 import LandingPage from "./components/LandingPage/LandingPage";
-import lines from "./images/lines2.png";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/About/About";
