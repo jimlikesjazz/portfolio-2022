@@ -8,9 +8,10 @@ let skills = [
   { section: "Authentication:", skills: "Auth0" },
   { section: "Testing:", skills: "Jest, Supertest, Cypress" },
   { section: "Design:", skills: "Figma, Miro, Photoshop, Affinity Photo" },
-  { section: "Services:", skills: "Heroku, Netlify" },
+  { section: "Services:", skills: "Heroku" },
   { section: "Tools:", skills: "VSCode, GitHub, Trello, Notion" },
   { section: "CMS:", skills: "Wordpress" },
+  { section: "Deployment:", skills: "Netlify" },
 ];
 
 export default function Skills() {
@@ -21,12 +22,14 @@ export default function Skills() {
           <h1 id="skills-header">Skills</h1>
 
           <p id="skills-text">
-            I have experience of using these technologies & tools. <br></br>
-            <br></br> I have also had exposure to the concepts involved with
-            UI/UX design, agile methodologies and test driven development.
+            I have experience of using these technologies & tools.<br></br>
+            <br></br> Since starting the School Of Code bootcamp, I have also
+            had exposure to the concepts involved with UI/UX design, agile
+            methodologies and test driven development.
             <br></br>
             <br></br>I have experience of solo & pair programming as well as
-            collaborating in larger teams.
+            collaborating in larger teams. I am experienced with working
+            remotely.
           </p>
         </div>
 

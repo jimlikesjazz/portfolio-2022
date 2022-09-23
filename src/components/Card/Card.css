@@ -9,6 +9,7 @@
     border-radius: 2px;
 
     background-color: #3137a7;
+    font-family: "lato";
 
 
 }
@@ -37,7 +38,9 @@
 }
 
 .project-name {
-    color: #F34D6E;
+    color: white;
+    font-weight: 800;
+    font-size: 19px;
 }
 
 .image-div-card {
