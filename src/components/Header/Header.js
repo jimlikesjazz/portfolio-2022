@@ -48,12 +48,12 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a href="www.github.com">
+                  <a href="https://github.com/jimlikesjazz">
                     <img src={GitHub} class="social-logos" />
                   </a>
                 </li>
                 <li>
-                  <a href="www.linkedin.com">
+                  <a href="https://www.linkedin.com/in/jim-wynn-29281b67/">
                     <img src={LinkedIn} class="social-logos" />
                   </a>
                 </li>

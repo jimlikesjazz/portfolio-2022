@@ -18,7 +18,7 @@ export default function Portfolio() {
             <Card
               imagethumb={ylfb}
               project="Your Local Foodbank"
-              description="Four-week project to help foodbanks to better communicate with their communities"
+              description="Final project on the School Of Code bootcamp, developed in a team of six over four weeks. The app was designed to help foodbanks to better communicate with their communities"
             ></Card>
           </a>
         </div>
@@ -43,12 +43,12 @@ export default function Portfolio() {
         <div className="card-container">
           <Card
             project="Piano Bootcamp"
-            description="Website 2 Description"
+            description="Design for a piano bootcamp"
             imagethumb={Piano}
           ></Card>
           <Card
-            project="Jim Wynn Swing Orchestra"
-            description="Website 2 Description"
+            project="C'est Dû Gateaux"
+            description="Design for a French bakery"
             imagethumb={Bakery}
           ></Card>
         </div>

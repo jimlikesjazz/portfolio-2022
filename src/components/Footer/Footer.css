@@ -10,7 +10,11 @@
 .social-logos-footer {
     height: 25px;
 
-    padding: 20px;
+    padding: 0px 15px 0px 15px;
 
 
+}
+
+.socials-footer {
+    padding: 0px 15px 0px 15px;
 }
