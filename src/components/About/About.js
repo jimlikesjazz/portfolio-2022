@@ -31,7 +31,7 @@ export default function About() {
             learning French, cooking, cycling and photography.
             <br></br>
             <br></br>
-            For more information about my experience, please open my CV:
+            For more information about my experience, please open my resumé:
           </p>
           <a href={CV} target="_blank" rel="noopener noreferrer">
             <Button label="Resumé"></Button>

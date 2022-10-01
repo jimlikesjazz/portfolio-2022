@@ -57,6 +57,13 @@ a {
         margin: 0;
         padding: 0;
         margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .site-thumb {
+
+        height: 200px;
+
     }
 
 }
