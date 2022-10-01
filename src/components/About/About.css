@@ -72,6 +72,16 @@
 
 }
 
+.no-text-dec {
+    text-decoration: none;
+    color: #F2F1F2;
+}
+
+.no-text-dec:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 
 
 @media (max-width:800px) {
