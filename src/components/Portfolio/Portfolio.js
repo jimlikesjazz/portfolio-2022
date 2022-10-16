@@ -6,6 +6,8 @@ import JW from "../../images/Jim Wynn Music.jpg";
 import Piano from "../../images/Piano.jpg";
 import Bakery from "../../images/Gateaux.jpg";
 import JWPortfolio from "../../images/Jim-Wynn-Portfolio.jpg";
+import JWSync from "../../images/Jim-Wynn-Sync.jpeg";
+import JWSOlogo from "../../images/JWSO-Logo-with-background-colour.png";
 
 export default function Portfolio() {
   return (
@@ -58,6 +60,19 @@ export default function Portfolio() {
             project="C'est Dû Gateaux"
             description="Design for a French bakery"
             imagethumb={Bakery}
+          ></Card>
+        </div>
+        <p className="portfolio-text">Logo Design</p>
+        <div className="card-container">
+          <Card
+            project="Jim Wynn Syncopators"
+            description="Logo design for a 1920s style jazz band"
+            imagethumb={JWSync}
+          ></Card>
+          <Card
+            project="Jim Wynn Swing Orchestra"
+            description="Logo design for 1940s style swing band"
+            imagethumb={JWSOlogo}
           ></Card>
         </div>
       </div>
